@@ -28,6 +28,6 @@ public class SalesManager {
         for (int sale : sales) {
             sum += sale;
         }
-        return (sum-(min()+max()))/ sales.length-2;
+        return (sum-(min()+max()))/ (sales.length-2);
     }
 }
